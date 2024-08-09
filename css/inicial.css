@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.initdiv {
+    width: 100%;
+    height: 950px;
+    top: -80px;
+    position: relative;
+    z-index: -1;
+}
+
+.inicial {
+    width: 100%;
+    height: 950px;
+    background-image: url(../img/Initcontainer/bginit.jpg);
+    background-size: cover;
+    filter: brightness(24%) blur(2px);
+    position: relative;
+    z-index: 1;
+}
+
+.degrade {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(219, 213, 213) 0%, rgba(44, 44, 44, 0) 50%);
+}
+
+.slogan {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 590px;
+    filter: opacity(10%);
+    color: rgb(172, 172, 170);
+
+
+
+    right: 40px;
+    top: 150px;
+    position: absolute ;
+    z-index: 2;
+}
+
+
+.person {
+    left: 130px;
+    bottom: 50px;
+    position: absolute;
+    z-index: 3;
+    width: 250px;
+}
+
+.Eufoto {
+    bottom: 2px;
+    position: absolute;
+    z-index: 3;
+    filter:  brightness(80%) blur(0.7px);
+    display: block;
+    right:25%;
+}
+
+.fa.icone {
+    left: 48%;
+    bottom: 5px;
+    z-index: 2;
+    position: absolute;
+    font-size: 46px;
+    color: rgb(255, 231, 12);
+    opacity: 1;
+    animation: anima 1500ms ease infinite;
+}
+@keyframes anima {
+    to {
+        opacity: 0.1;
+        transform: scale(0.85) translateY(20px);
+    }
+}
+
+.contentstitle{
+    text-align: right;
+    position: absolute;
+    z-index: 2;
+    bottom: 150px;
+    right: 200px;
+
+}
+
+.contentstitle > li > h3 {
+    color: aliceblue;
+    font-family: poppins;
+    font-weight: 200;
+}

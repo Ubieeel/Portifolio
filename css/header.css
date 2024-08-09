@@ -1,0 +1,56 @@
+
+/* header */
+.nav-menu {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.274) 0%, rgba(0,212,255,0) 100%);
+}
+
+.nav-menu > ul {
+    margin-left: 35px;
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.Nav-abas:hover{
+    font-size: 20px;
+    color: #EBFF00;
+}
+
+.Nav-abas {
+    padding-top: 41px;
+    padding-left: 20px;
+    font-family: "Kodchasan", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    transition: all 200ms;
+
+
+}
+
+.nav-menu > a {
+    margin: 20px;
+    margin-right: 45%;
+    text-decoration: none;
+}
+
+
+.logo {
+        font-family: "Kodchasan", sans-serif;
+        font-weight: 300;
+        font-size: 32px;
+        color: #EBFF00;
+        transition: all 500ms;
+}
+
+.logo:hover{
+    color: aliceblue;
+    scale: 1.2;
+}

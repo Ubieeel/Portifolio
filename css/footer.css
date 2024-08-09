@@ -1,0 +1,79 @@
+/* footer */
+
+.nav-footer{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+ }
+
+ .nav-footer-txt > h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    padding-right: 21px;
+    color: rgba(255, 255, 255, 0.301);
+    margin-top: 7px;
+    transition:  all 500ms;
+ }
+
+ .nav-footer-txt > h6:hover {
+    
+   scale: 1.1;
+   color: #EBFF00;
+}
+
+ .voltarinicio {
+    color: #EBFF00;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    transition: all 200ms;
+    
+ }
+
+
+ .voltarinicio:hover{
+   color: #818181;
+ }
+
+
+
+ .socialiconslist {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    margin-top: -25px;
+    gap: 20px;
+ }
+
+ 
+
+ .copy {
+    padding-bottom: 60px;
+    padding-top: 93px;
+    text-align: center;
+    color: #818181;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+ }
+
+ .socialicons {
+   transition: all 100ms;
+ }
+
+ .socialicons:hover{
+
+   scale: 1.2;
+
+ }

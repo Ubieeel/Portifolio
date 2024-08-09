@@ -1,0 +1,37 @@
+
+
+.pose-frase {
+    text-align: center;
+    padding-top: 132px;
+    padding-bottom: 83px;
+}
+
+.frase-efeito {
+        color: #EBFF00;
+        font-family: "Red Rose", serif;
+        font-optical-sizing: auto;
+        font-weight: 350;
+        font-style: normal;
+}
+
+.frase-efeito2 {
+    color: #ffffff5e;
+        font-family: "Red Rose", serif;
+        font-optical-sizing: auto;
+        font-weight: 350;
+        font-style: normal;
+} 
+
+.globe {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 52px;
+  color: rgba(255, 255, 255, 0.301);
+}
+
+.barrafooter {
+    background-color:rgba(255, 255, 255, 0.301);
+    height: 5px;
+    width: auto;
+}

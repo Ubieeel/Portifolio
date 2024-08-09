@@ -1,0 +1,47 @@
+
+.box2 {
+    padding-top: 150px;
+    width: 100%;
+    height: 100%;
+}
+
+.fig3{
+    display: flex;
+    flex-direction: column;
+}
+
+.acessproj{
+justify-content: center;
+margin-inline: auto;
+}
+.acessproj > a >p {
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.acessproj > a{
+    scale: 1.4;
+    text-align: center;
+    padding: 2px 2px 3px 3px;
+    box-shadow: -2px 5px 15px 0px #000000;
+	background-color:#ffff13;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 31px;
+	text-decoration:none;
+    transition: all 200ms;
+	
+}
+.acessproj > a:hover {
+	background-color:#ffff13;
+    scale: 1.5;
+}
+.acessproj > a:active {
+	position:relative;
+	top:1px;
+}

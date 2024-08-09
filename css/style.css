@@ -1,0 +1,56 @@
+/* Barra de rolagem */
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #EBFF00; 
+    border-radius: 30px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #eaff0069; 
+  }
+
+
+
+  * {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+  
+    background-color: #1a1a1ae1;
+}
+
+.box {
+    max-width: 1560px;
+    margin: 0px auto;
+    border: 4px solid transparent;
+    padding-left: auto;
+    padding-right: auto;
+    border: 0px;
+}
+
+footer {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.205) 0%, rgba(0,212,255,0) 100%);
+}
+
+
+ 
+
+  

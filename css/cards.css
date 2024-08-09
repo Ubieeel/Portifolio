@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+
+.title1 {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    margin-top: 23px;
+    scale: 1.8;
+    background-color: #22222200;
+    
+}
+
+.inicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.tittle3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    margin-top: 23px;
+}
+
+
+.figinit{
+    width: 1500px;
+}
+
+
+select {
+    max-width: 500px;
+    text-align: center;
+}
+
+option{
+    color: #ffffff ;
+    background-color: #1a1a1ae1;
+    font-family: poppins, arial;
+    font-weight: 500;
+    transition: all 200ms;
+}
+
+
+
+.vitrine1 {
+    width: auto;
+    height: auto;
+    margin-top: 80px;
+}
+
+#title3d {
+    font-family: Popppins, arial;
+    font-size: 25px;
+    color: #dfdfdf;
+    text-align: center;
+}
+
+.photos1{
+    margin-top: 40px;
+
+
+
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.photos1 > figure > img{
+    width: 700px;
+}
+
+.captionfig1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #dfdfdf;
+
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.divisores{
+    margin-top: 30px;
+    width: auto;
+    height: 5px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.301);
+    margin-inline: auto;
+}
+
+.photos2 > figure > img{
+    width: 1500px;
+}
+
+.photos2{
+    margin-top: 80px;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+
+    font-family: poppins, arial; 
+    font-weight: 800;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+
+
+
+  .caption-container {
+    text-align: center;
+    font-family: Poppins, arial;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #222;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+/* Vitrine 2 */
+
+.photosvit{
+
+    margin-top: 80px;
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    gap: 50px;
+    justify-content: center;
+}
+
+.captionedicaoimagem {
+
+    padding-top: 80px;
+    text-align: center;
+    color: #dfdfdf;
+
+    width: fit-content;
+
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-inline: auto;
+}
+
+
+
+video {
+    margin-top: 50px;
+    margin-inline: 0px;
+}
+
+.photosvit > figure > img {
+    width: 500px;
+}
+
+
+.photosvit2 > figure > img {
+    width: 500px;
+}
+
+.photosvit2{
+
+    margin-top: 80px;
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+    gap: 50px;
+    justify-content: center;
+}
+
+
+/* Videos */
+
+.vitrine {
+    margin-top: 80px;
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+    gap: 50px;
+    justify-content: center;
+}
+
+
+.vitrinevideo {
+    margin-top: 80px;
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+   
+    flex-direction: row;
+
+
+    gap: 50px;
+    justify-content: center;
+}
+
+
+video {
+    margin-inline: auto;
+    width: 500px;
+}
+  
+#section1, #section2 {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari e Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari e Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }}

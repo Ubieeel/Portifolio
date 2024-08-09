@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Projetos - Bielo Design</title>
+    <link rel="shortcut icon" type="imagex/png" href="img/Bielo.png">
+
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
+
+
+    <!-- CSs -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/fraseefeito.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/infocard..css">
+    <link rel="stylesheet" href="css/botaocontato.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <script type="text/javascript" src="js/carrosel.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+    <!-------------------------------------- header ------------------------------>
+    <header>
+
+        <nav>
+            <div class="nav-menu">
+
+                <ul>
+
+                    <li>
+                        <a href="index.html" class="Nav-abas">Início</a>
+                    </li>
+                    <li>
+                        <a href="projetos.html" class="Nav-abas">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Nav-abas">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="#" class="Nav-abas">Contato</a>
+                    </li>
+
+
+                </ul>
+
+
+                <a href="index.html">
+                    <h1 class="logo">
+                        BIELO DESIGN
+                    </h1>
+                </a>
+
+            </div>
+        </nav>
+
+
+    </header>
+    <!-------------------------------------- main ------------------------------>
+
+    <main>
+        <div class="box">
+            <section>
+
+                <!-- titulo -->
+
+                <div class="divisores"></div>
+                <div class="inicio">
+
+                    <figure>
+                        <img class="figinit" src="img/banner1v2.png" alt="Bannerinitial">
+                    </figure>
+                    <select id="projects" class="title1" name="projects" onchange="projectsoption()">
+
+                        <option value=""> Selecione os projetos</option>
+                        <option value="3d"> Modelagem 3D </option>
+                        <option value="2"> Edição de imagem</option>
+                        <option value="3"> Edição de Vídeo</option>
+
+                    </select>
+
+                </div>
+
+                <div class="divisores"></div>
+
+
+
+                <!-- vitrine -->
+
+                <div id="section1" style="display:none" class="vitrine1">
+
+
+                    <div class="photos1">
+
+                        <figure>
+                            <img src="img/Card1/ft1.png" alt="">
+                        </figure>
+
+                        <figure>
+                            <img src="img/Card1/ft3.png" alt="">
+                        </figure>
+
+
+
+                        <figure>
+                            <img src="img/Card1/ft2.png" alt="">
+
+                            <figcaption>
+                                <p class="captionfig1">
+                                    Hugo Melo! <br> Personagem desenvolvido pela ferramenta Blender, para estudos.
+                                </p>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+
+                    <div class="divisores"></div>
+
+                    <div class="photos2">
+
+                        <div class="container">
+
+                            <!-- Full-width images with number text -->
+                            <div class="mySlides">
+                                <div class="numbertext">1 / 6</div>
+                                <img src="img/card2/barimage1.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">2 / 6</div>
+                                <img src="img/card2/bar1.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">3 / 6</div>
+                                <img src="img/card2/bar2.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">4 / 6</div>
+                                <img src="img/card2/bar3.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">5 / 6</div>
+                                <img src="img/card2/bar4.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">6 / 6</div>
+                                <img src="img/card2/bar5.png" style="width:100%">
+                            </div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- Image text -->
+                            <div class="caption-container">
+                                <p id="caption">Bar 3D Render</p>
+                            </div>
+
+                            <!-- Thumbnail images -->
+                            <div class="row">
+                                <div class="column">
+                                    <img class="demo cursor" src="img/card2/barimage1.png" style="width:100%"
+                                        onclick="currentSlide(1)" alt="Render Full">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="img/card2/bar1.png" style="width:100%"
+                                        onclick="currentSlide(2)" alt="Detalhes">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="img/card2/bar2.png" style="width:100%"
+                                        onclick="currentSlide(3)" alt="Câmera 2">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="img/card2/bar3.png" style="width:100%"
+                                        onclick="currentSlide(4)" alt="Câmera 3">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="img/card2/bar4.png" style="width:100%"
+                                        onclick="currentSlide(5)" alt="Materiais">
+                                </div>
+                                <div class="column">
+                                    <img class="demo cursor" src="img/card2/bar5.png" style="width:100%"
+                                        onclick="currentSlide(6)" alt="Modelos 3D">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <caption>
+                            <p class="captionfig1">Bar Cenário 3D <br> Utilizados softwares: <br> Blender <br> Substance
+                                Painter <br> Photoshop <br>
+                                Projeto realizado para Escola Saga</p>
+                        </caption>
+                    </div>
+
+                    <div class="divisores"></div>
+
+                </div>
+
+
+            </section>
+
+
+            <!-- Edição de imagens -->
+
+            <section>
+                <div id="section2" style="display:none" class="vitrine">
+                    <div class="photosvit">
+
+                        <figure>
+                            <img src="img/edicaodeimagem/1.png" alt="Edit image 1">
+
+                        </figure>
+
+                        <figcaption class="captionedicaoimagem">
+                            <p><b>Manipulação de Imagem</b>
+                                <br> <br>
+                                Softwares utilizados: <br>
+                                Adobe Photoshop
+                            </p>
+                        </figcaption>
+
+                        <figure>
+                            <img src="img/edicaodeimagem/1.2.jpeg" alt="Edit image 1">
+                        </figure>
+
+                        <figure class="captionedicaoimagem">
+                            <img src="img/edicaodeimagem/2.jpg" alt="Edit image 1">
+                            <figcaption>
+                                <p><b>Penhasco Mágico</b> <br> <br>
+                                    Softwares utilizados: <br>
+                                    Adobe Photoshop</p>
+                            </figcaption>
+                        </figure>
+                    
+                    </div>
+
+                    <div class="divisores"></div>
+
+                    <div class="photosvit2">
+
+
+                   <figure>
+                         <img src="img/edicaodeimagem/3.jpg" alt="">
+                  </figure>
+
+                    <figure>
+                        <img src="img/edicaodeimagem/10.jpg" alt="">
+                    </figure>
+
+                    <figure>
+                        <img src="img/edicaodeimagem/8.png" alt="">
+                    </figure>
+                    
+                    <figure>
+                        <img src="img/edicaodeimagem/5.jpg" alt="">
+                    </figure>
+
+                    <figure>
+                        <img src="img/edicaodeimagem/4.png" alt="">
+
+                        <div class="captionedicaoimagem">
+                            <figcaption><p><b>Flyers e Logos</b><br> Desenvolvidos para fins comerciais<br>
+                            Utilizados softwares: <br> Adobe Photoshop</p>
+                        </figcaption>
+
+                        
+                        </div>
+                    </figure>
+                </div>
+                <div class="divisores"></div>
+                
+                </div>
+
+            </section>
+
+            <!-- Vitrine 3 -->
+
+            <div id="section3" style="display:none">
+                <section class="vitrinevideo">
+                    <video controls poster="img/Videos/cape.VFX.png">
+                        <source src="img/Videos/Holograma.mp4" type="video/mp4">
+                        <object>
+                          <embed src="img/Videos/Holograma.mp4" 
+                          allowfullscreen="false" allowscriptaccess="always">  		
+                        </object>
+                        Formato não suportado  
+                      </video>
+                      
+                      <p class="captionedicaoimagem">
+                        <b>Edição VFX <br></b>
+                        Projeto desenvolvido para redes sociais <br>
+                        Softwares utilizados: <br><br>
+                        Adobe Photoshop <br>
+                        Adobe After Effects <br>
+                        Abode Premiere
+                      </p>
+
+                      <video controls poster="img/Videos/capavid2.png">
+                        <source src="img/Videos/seanorth.mp4" type="video/mp4">
+                        <object>
+                          <embed src="img/Videos/seanorth.mp4" type="application/x-shockwave-flash" 
+                          allowfullscreen="false" allowscriptaccess="always">  		
+                        </object>
+                        Formato não suportado  
+                      </video>
+
+                      <p class="captionedicaoimagem">
+                        <b>Flyer Animado <br></b>
+                        Projeto desenvolvido para Loja <br> 
+                        Sea North - Shopping Serramar (Caraguatatuba) <br>
+                        Softwares utilizados: <br><br>
+                        Adobe Photoshop <br>
+                        Adobe After Effects <br>
+                        Abode Premiere
+                      </p>
+
+                     
+                </section>
+                <div class="divisores"></div>
+
+                <section class="vitrinevideo">
+                    <iframe src="https://www.youtube.com/embed/pciStnRKsWw" frameborder="0" width="854" height="480"></iframe>
+
+                    <p class="captionedicaoimagem">
+                        <b>Edit Montage Fortnite<br></b>
+                        Projeto desenvolvido para Redes sociais <br>
+                        Softwares utilizados: <br><br>
+                        Adobe Photoshop <br>
+                        Adobe After Effects <br>
+                        Abode Premiere
+                      </p>
+                </section>
+
+            </div>
+
+
+            <!-------------------------- mais informações ------------------------>
+            <section>
+                <h2 class="title2"> Mais informações </h2>
+
+                <div class="infocard block shadow">
+
+                    <figure><img class="logoinfo" src="img/Bielo.png" alt="Logo bielo"></figure>
+
+                    <figcaption>
+                        <p class="captioninfo"> Todo o briefing e atendimento é realizado por WhatsApp ou E-mail.
+                            O projeto é acompanhado a todo momento pelos clientes, evitando
+                            transtornos e taxas de alteração ao produto final. Apesar de o projeto
+                            estar sujeito a ajustes de preço, seja por motivos de ajustes ou
+                            modificações.
+                            Este é um portifólio artístico, dedicado a expor trabalhos realizados
+                            pelo profissional responsável. Vendas e briefing somente por contato
+                            via WhatsApp ou E-mail. </p>
+                    </figcaption>
+
+                </div>
+
+
+                <!----------------------------------------- Frase Efeito -------------------------------------->
+
+                <div class="pose-frase">
+                    <h2 class="frase-efeito"> Transforme sua visão em realidade </h2>
+                    <h2 class="frase-efeito2">Onde o design encontra a inovação, sua inspiração ganha vida.</h2>
+                </div>
+
+                <figure class="globe">
+                    <img src="img/globe.png" alt="globe">
+                </figure>
+
+
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="box">
+            <div class="barrafooter">
+
+            </div>
+
+
+            <nav>
+                <ul class="nav-footer">
+                    <li><a href="#" class="nav-footer-txt">
+                            <h6>Início</h6>
+                        </a></li>
+                    <li><a href="#" class="nav-footer-txt">
+                            <h6>Projetos</h6>
+                        </a></li>
+                    <li><a href="#" class="nav-footer-txt">
+                            <h6>Sobre mim</h6>
+                        </a></li>
+                    <li><a href="#" class="nav-footer-txt">
+                            <h6>Contato</h6>
+                        </a></li>
+                </ul>
+
+                <a href="#" class="voltarinicio">Voltar ao início</a>
+
+                <ul class="socialiconslist">
+                    <li> <a href="https://www.youtube.com/@hellts3781/streams"><img class="socialicons" src="img/YT.png"
+                                alt="YoutubeIcon"></a></li>
+                    <li> <a href="#"><img class="socialicons" src="img/email.png" alt="Emailicon"></a></li>
+                    <li> <a href="https://www.instagram.com/bielo.design/"><img class="socialicons"
+                                src="img/instagram.png" alt="InstagramIcon"></a></li>
+                    <li> <a href="https://www.behance.net/MonteiroDsgn"><img class="socialicons" src="img/behance.png"
+                                alt="Behanceicon"></a></li>
+
+
+                </ul>
+
+
+                <p class="copy">BIELODESIGN @ 2024</p>
+            </nav>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
